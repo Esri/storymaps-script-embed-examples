@@ -1,0 +1,42 @@
+<head>
+  <title>Splash Screen Sample</title>
+  <!-- Reference Google Fonts and CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Sigmar+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="no-scroll">
+  
+  <!-- Splash overlay -->
+  <div class="splash-overlay" id="splashOverlay">
+    <!-- Splash screen -->
+    <div class="splash-screen">
+      <img src="rex_skull.svg" height="50-px" alt="T-Rex Fossil">
+      <h1>Welcome to Our Dino Dig!</h1>
+      <p>Since dinosaurs have been extinct for millions of years, we’ll become paleontologists to excavate the fossilized remains of these prehistoric giants.</p>
+      <p>Are you ready to get your hands dirty?</p>
+      <button onclick="closeSplashScreen()">Yeah, I can dig it!</button>
+    </div>
+  </div>
+
+  <!-- Embedded story -->
+  <div class="storymaps-root"></div>
+  <script
+    id="embed-script"
+    src="https://storymapsstg.arcgis.com/embed/view"
+    data-story-id="1ba69ca9c31b4183b1ee486c36364198"
+    data-root-node=".storymaps-root"
+  ></script>
+
+  <script>
+    // Function to close the splash screen and reveal the story
+    function closeSplashScreen() {
+      // Hide the splash screen
+      document.getElementById('splashOverlay').style.display = 'none';
+
+      // Enable scrolling on the main page
+      document.body.classList.remove('no-scroll');
+    }
+  </script>
+
+</body>

@@ -1,0 +1,55 @@
+/* Basic styling for header and footer */
+body {
+    font-family: "Sigmar";
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #e46116;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    font-family: "Sigmar One";
+  }
+  
+  .nav-tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-tabs a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-tabs a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #e46116;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

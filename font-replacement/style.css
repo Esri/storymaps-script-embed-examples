@@ -1,0 +1,29 @@
+/* Reference self-hosted font files */
+@font-face {
+    font-family: 'Permanent-Marker';
+    src: url('./fonts/PermanentMarker/PermanentMarker-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+}
+
+/* Replace title font */
+.sc-title {
+    font-family: 'Permanent-Marker', sans-serif !important;
+  }
+
+/* Replace heading font */
+.heading {
+    font-family: 'Permanent-Marker', sans-serif !important;
+}
+
+/* Replace paragraph font */
+p {
+    font-family: "Kalam" !important;
+}
+
+body {
+    margin: 0;
+  }
