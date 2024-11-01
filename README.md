@@ -21,6 +21,20 @@ Each sample folder within this repository demonstrates a specific use case and c
 
 The contents of these files can be copied and modified to suit your needs and hosted on your webserver.
 
+### Embedding a story using script tags
+Within the HTML `index.html` file a script tag is used to embed the story.
+
+```html
+  <!-- Embedded story -->
+  <div class="storymaps-root"></div>
+  <script
+    id="embed-script"
+    src="https://storymapsqa.arcgis.com/embed/view"
+    data-story-id="<UPDATE_WITH_YOUR_STORY_ID>"
+    data-root-node=".storymaps-root"
+  ></script>
+```
+
 ## Resources
 
 - [GitHub Markdown Reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
