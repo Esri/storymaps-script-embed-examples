@@ -5,11 +5,11 @@ This repository is intended for sharing samples of script-embedded ArcGIS StoryM
 ## Features
 
 Embedding stories in your webpage usings `<script>` tags enables you to:
-- [Embed the story within a webpage within your own domain](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/getting-started).
-- [Wrap the story in your header and footer](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/header-footer).
-- [Open the story with a splash page or pop-up](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/splash-page).
-- [Replace the fonts in your story with self-hosted fonts or those from a font delivery service.](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/font-replacement)
-- [Implement your own analytics](https://github.com/WarrenDz/storymaps-script-embed-examples-examples/blob/master/analytics).
+- [Embed the story within a webpage within your own domain](/getting-started/README.md).
+- [Wrap the story in your header and footer](/header-footer/README.md).
+- [Open the story with a splash page or pop-up](/splash-page/README.md).
+- [Replace the fonts in your story with self-hosted fonts or those from a font delivery service.](/font-replacement/README.md)
+- [Implement your own analytics](/analytics/README.md).
 
 ## Instructions
 
@@ -17,7 +17,7 @@ Each sample folder within this repository demonstrates a specific use case and c
 - **HTML** index.html file that acts as the main webpage with a script-embed of an ArcGIS StoryMap story.
 - **CSS**  style.css file containing rules for overriding the styling of elements within a story.
 - **Javascript (optional)** javascript.js file containing code to manipulate content of the webpage.
-- **README** A read me document that outlines the use case for the sample, how to implement it, and a link to a live codepen (if applicable).
+- **README** A read me document that outlines the use case for the sample, how to implement it, and a link to a live example (if applicable).
 
 The contents of these files can be copied and modified to suit your needs and hosted on your webserver.
 
@@ -29,7 +29,7 @@ Within the HTML `index.html` file a script tag is used to embed the story.
   <div class="storymaps-root"></div>
   <script
     id="embed-script"
-    src="https://storymapsqa.arcgis.com/embed/view"
+    src="https://storymapsstg.arcgis.com/embed/view"
     data-story-id="<UPDATE_WITH_YOUR_STORY_ID>"
     data-root-node=".storymaps-root"
   ></script>
@@ -38,8 +38,6 @@ Within the HTML `index.html` file a script tag is used to embed the story.
 ## Resources
 
 - [GitHub Markdown Reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Esri Copyright Statement](https://github-admin.esri.com/doc/copyright.txt)
-- [Public Repository Guidelines](https://github-admin.esri.com/doc/public-repository-requirements-and-guidelines.html)
 
 ## Issues
 
@@ -65,4 +63,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-A copy of the license is available in the repository's [license.txt](./LICENSE) file.
+A copy of the license is available in the repository's [license.txt](/LICENSE) file.
