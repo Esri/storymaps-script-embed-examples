@@ -4,7 +4,7 @@ You may want to greet readers or preface the story they're about to read. A spla
 
 ## Live sample
 
-[![Splash screen sample codepen](./assets/sample_splash_screen.jpg "Splash screen sample codepen")](https://codepen.io/Warren-Davison/pen/abeNewB)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/abeNewB)*
+[![Splash screen example](./assets/sample_splash_screen.jpg "Splash screen example")](https://storymaps.esri.com/stories/storymaps-script-embed-examples/splash-page/)*[Click to see the live example](https://storymaps.esri.com/stories/storymaps-script-embed-examples/splash-page/)*
 
 
 ## Usage instructions

@@ -4,7 +4,7 @@ Does your organization employ a custom header and footer for its websites? It's 
 
 ## Live sample
 
-[![Sample header footer](./assets/sample_header_footer.jpg "Sample header footer")](https://codepen.io/Warren-Davison/pen/VwoPPQR)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/VwoPPQR)*
+[![Sample header footer](./assets/sample_header_footer.jpg "Sample header footer")](https://storymaps.esri.com/stories/storymaps-script-embed-examples/header-footer/)*[Click to see the live example](https://storymaps.esri.com/stories/storymaps-script-embed-examples/header-footer/)*
 
 ## Usage instructions
 

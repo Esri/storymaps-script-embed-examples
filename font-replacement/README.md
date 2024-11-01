@@ -6,6 +6,10 @@ This is useful when you want the typefaces of your story to conform to the style
 
 >**Note:** See [this sample](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/splash-page/README.md#CSS-snippet) for an example of referencing a font from a font delivery service (Google Fonts/Adobe Fonts)
 
+## Live sample
+
+[![Splash screen example](./assets/sample_custom_font.jpg "Splash screen example")](https://storymaps.esri.com/stories/storymaps-script-embed-examples/font-replacement/)*[Click to see the live example](https://storymaps.esri.com/stories/storymaps-script-embed-examples/font-replacement/)*
+
 ## Usage instructions
 
 In order to implement custom fonts for your story, you'll need to:

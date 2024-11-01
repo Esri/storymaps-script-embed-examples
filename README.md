@@ -5,7 +5,7 @@ This repository is intended for sharing samples of script-embedded ArcGIS StoryM
 ## Features
 
 Embedding stories in your webpage usings `<script>` tags enables you to:
-- [Embed the story within a webpage within your own domain](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/custom-domain).
+- [Embed the story within a webpage within your own domain](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/getting-started).
 - [Wrap the story in your header and footer](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/header-footer).
 - [Open the story with a splash page or pop-up](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/splash-page).
 - [Replace the fonts in your story with self-hosted fonts or those from a font delivery service.](https://github.com/WarrenDz/storymaps-script-embed-examples/blob/master/font-replacement)
